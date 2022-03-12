@@ -1,0 +1,77 @@
+*{
+    font-family: 'Red Hat Display', sans-serif;
+    box-sizing: border-box;       
+    scroll-behavior: smooth;  
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+#navibar{
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center; 
+    height: 80px;
+}
+#navibar a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+    
+}
+.navi{
+    display: flex;
+    list-style-type: none;
+}
+#navibar a:hover{
+    color: rgba(255, 255, 255, 0.521);
+}
+#main_txt{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+#contact_btn{
+    /*border: solid 2px rgb(19, 87, 231);*/
+    background-color: rgb(19, 87, 231);
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+#contact_btn:hover{
+    background-color: rgb(54, 111, 233);
+}
+p{
+    margin-top: 0;
+    margin-bottom: 35px;
+    font-size: 1.2rem;
+}
+.txt1{
+    color: rgb(19, 87, 231);
+}
+#main_txt a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(19, 87, 231);
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 40px;
+
+}
+#main_txt a:hover{
+    background-color: rgb(54, 111, 233);
+}
