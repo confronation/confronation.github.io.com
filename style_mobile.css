@@ -1,0 +1,20 @@
+@media only screen and (max-width: 618px) {
+    .navi{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width: 450px) {
+    #navivbar{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #main_txt{
+        left: 5%;
+    }
+    #main_txt a{
+        padding-left: 27%;
+        padding-right: 27%;
+        
+    }
+}

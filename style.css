@@ -1,7 +1,9 @@
 *{
     font-family: 'Red Hat Display', sans-serif;
     box-sizing: border-box;       
-    scroll-behavior: smooth;  
+    scroll-behavior: smooth; 
+    margin: 0; 
+    color: white;
 }
 #myVideo {
     position: fixed;
@@ -19,13 +21,13 @@
     padding-right: 10%;
     align-items: center; 
     height: 80px;
+    width: 100%;
 }
 #navibar a{
     text-decoration: none;
     color: white;
     font-weight: bold;
-    margin-left: 30px;
-    
+    margin-left: 30px;    
 }
 .navi{
     display: flex;
@@ -34,12 +36,16 @@
 #navibar a:hover{
     color: rgba(255, 255, 255, 0.521);
 }
+.background{
+    background-color: #0c1625;
+}
 #main_txt{
     font-size: 2rem;
     color: rgb(255, 255, 255);
     position: absolute;
     top: 40%;
     left: 10%;
+    margin-right: 10%;
 }
 #contact_btn{
     /*border: solid 2px rgb(19, 87, 231);*/
@@ -53,25 +59,75 @@
 #contact_btn:hover{
     background-color: rgb(54, 111, 233);
 }
-p{
+#main_txt p{
     margin-top: 0;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
     font-size: 1.2rem;
 }
 .txt1{
-    color: rgb(19, 87, 231);
+    color: rgb(240, 240, 240);
 }
 #main_txt a{
     text-decoration: none;
     color: white;
+    font-size: 1.2rem;
     background-color: rgb(19, 87, 231);
     margin-top: 20px;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 40px;
 
 }
 #main_txt a:hover{
     background-color: rgb(54, 111, 233);
+}
+#contact{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+#contact_form{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+#contact_form input {
+    max-width: 500px;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding-left: 10px;
+    border: none;
+    color: black;
+}
+#btn_send{
+    max-width: 500px;
+    border: none;
+    background-color: rgb(19, 87, 231);
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+    font-size: 1.1rem;
+}
+#btn_send:hover{
+    background-color: rgb(54, 111, 233);
+    cursor: pointer;
+}
+#form_txt{
+    max-width: 500px; 
+    border-radius: 20px; 
+    max-height: 10em; 
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: none;
+    color: black;
+}
+#contact_head{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    margin-top: 5%;
 }

@@ -7,14 +7,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Lato:wght@300&family=Red+Hat+Display:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style_mobile.css">
-
-    <title>Portfolio</title>
+    <title>Document</title>
 </head>
-<body style="margin: 0;">
-
-    <video autoplay muted loop id="myVideo">
-        <source src="background2.mp4" type="video/mp4">
-    </video>
+<body class="background">
     <div id="navibar">
         <a id="home" style="margin-left: 0;" href="/">PORTFOLIO</a>
         <ul class="navi">
@@ -25,28 +20,35 @@
     
         </ul>
     </div>
-    <div id="main_txt">
-        <span class="txt1">Cześć, jestem Szymon</span><span style="color: rgb(19, 87, 231);">.</span>
-        <h1 style="padding: 0; margin: 0; margin-bottom: 20px;">Tworzę strony internetowe.</h1>
-        <p style="margin: 0;">Jestem Full Stack Developerem. Mam za sobą wiele ukończonych projektów.</p>
-        <p>Potrzebujesz strony internetowej? Skontaktuj się ze mną.</p>
-        <a href="/contact.html">Potrzebuję strony</a>
+
+    <div id="contact_head">
+        <h1>Potrzebujesz strony internetowej?</h1>
+        <br>
+        <h2 style="margin-bottom: 5px;">Świetnie trafiłeś! </h2> 
+        <p>
+            Jestem profesjonalnym Web Developerem. <br>
+            Mam za sobą wiele ukończonych projektów <br>
+            i wielu zadowolonych klientów. <br>
+        </p>
+        <br>
+        <h3>
+            Skontaktuj się ze mną za pomocą poniżeszgo formularza. <br>
+            Na pewno się odezwę!
+        </h3>
     </div>
-
-
-<!--<section style="background-color: #413C69;">
+    
 
     <div id="contact">
         <form id="contact_form">
             Jak masz na imię?
             <input type="text">
-            Podaj swój email:
+            Podaj swój email*
             <input type="email">
             Napisz czego potrzebujesz:
-            <input style="height: 200px;" type="text">
+            <textarea  type="text" rows="10" id="form_txt"></textarea>
             <button id="btn_send">Wyślij</button>
         </form>
     </div>
-</section>-->
+
 </body>
 </html>
