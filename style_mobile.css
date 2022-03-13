@@ -16,7 +16,13 @@
     #main_txt a{
         padding-left: 27%;
         padding-right: 27%;
-
-        
+    }
+    #contact_head{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    #contact{
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
