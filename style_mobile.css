@@ -11,10 +11,12 @@
     }
     #main_txt{
         left: 5%;
+        top: 20%;
     }
     #main_txt a{
         padding-left: 27%;
         padding-right: 27%;
+
         
     }
 }
